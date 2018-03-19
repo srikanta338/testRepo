@@ -28,6 +28,7 @@ public class NoteController {
 	@GetMapping("/notes")
 	public List<Note>getAllnotes(){
 		System.out.println("Inside Get all notes");
+		System.out.println("Inside Get all notes2");
 		return noteRepository.findAll();
 		
 	}
